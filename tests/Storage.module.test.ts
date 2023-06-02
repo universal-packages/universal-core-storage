@@ -1,4 +1,5 @@
 import { Logger } from '@universal-packages/logger'
+
 import { StorageModule } from '../src'
 
 describe('StorageModule', (): void => {
