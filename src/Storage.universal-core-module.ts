@@ -10,7 +10,7 @@ export default class StorageModule extends CoreModule<StorageOptions> {
   public async prepare(): Promise<void> {
     this.subject = new Storage(this.config)
 
-    await this.subject.initialize()
+    await this.subject.prepare()
   }
 
   public async release(): Promise<void> {
