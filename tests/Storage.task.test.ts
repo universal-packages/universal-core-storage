@@ -5,7 +5,7 @@ import StorageTask from '../src/Storage.universal-core-task'
 
 jest.mock('@universal-packages/template-populator')
 
-describe('StorageTask', (): void => {
+describe(StorageTask, (): void => {
   it('behaves as expected', async (): Promise<void> => {
     const logger = new Logger({ silence: true })
 
