@@ -32,6 +32,12 @@ core.coreModules.storageModule.subject.store()
 
 ## Typescript
 
+In order for typescript to see the `storageSubject` global you need to reference the types somewhere in your project, normally `./src/globals.ts`.
+
+```ts
+/// <reference types="@universal-packages/core-storage" />
+```
+
 This library is developed in TypeScript and shipped fully typed.
 
 ## Contributing
