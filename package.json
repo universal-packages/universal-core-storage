@@ -19,7 +19,7 @@
     "@universal-packages/storage": "^1.11.2"
   },
   "peerDependencies": {
-    "@universal-packages/core": "^1.16.20"
+    "@universal-packages/core": "^1.16.21"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
