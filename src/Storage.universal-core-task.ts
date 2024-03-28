@@ -11,7 +11,7 @@ export default class StorageTask extends CoreTask {
       case 'init':
         await populateTemplates(path.resolve(__dirname, 'template'), './src', { override: this.args.f })
 
-        this.logger.publish('INFO', 'Storage template initialized')
+        this.logger.log({ level: 'INFO', title: 'Storage template initialized' })
         break
       default:
         throw new Error(`Unrecognized directive ${this.directive}`)
