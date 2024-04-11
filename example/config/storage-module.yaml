@@ -1,0 +1,4 @@
+default:
+  engine: local
+  engineOptions:
+    location: ./storage
