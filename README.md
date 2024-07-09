@@ -15,7 +15,7 @@ npm install @universal-packages/core-storage
 ## Initialization
 
 ```shell
-ucore exec storage-task init
+ucore initialize storage
 ```
 
 ## Global

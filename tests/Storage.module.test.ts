@@ -1,6 +1,6 @@
 import { StorageModule } from '../src'
 
-jestCore.runBare({
+coreJest.runBare({
   coreConfigOverride: {
     config: { location: './tests/__fixtures__/config' },
     modules: { location: './tests/__fixtures__' },
