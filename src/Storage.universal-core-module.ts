@@ -4,7 +4,7 @@ import { Storage, StorageOptions } from '@universal-packages/storage'
 import { LOG_CONFIGURATION } from './LOG_CONFIGURATION'
 
 export default class StorageModule extends CoreModule<StorageOptions> {
-  public static readonly moduleName = 'storage-module'
+  public static readonly moduleName = 'storage'
   public static readonly description = 'Storage initialization module'
 
   public subject: Storage
