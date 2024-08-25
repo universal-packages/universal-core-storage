@@ -1,6 +1,6 @@
 {
   "name": "@universal-packages/core-storage",
-  "version": "1.6.16",
+  "version": "1.6.17",
   "description": "Storage universal-core module abstraction.",
   "author": "David De Anda <david@universal-packages.com> (https://github.com/universal-packages)",
   "license": "MIT",
