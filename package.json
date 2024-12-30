@@ -16,7 +16,7 @@
     "update-universal-dependencies": "umaintenance update-universal-dependencies"
   },
   "dependencies": {
-    "@universal-packages/storage": "^1.12.2"
+    "@universal-packages/storage": "^1.12.3"
   },
   "peerDependencies": {
     "@universal-packages/core": "^1.32.0"
